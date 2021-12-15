@@ -7,9 +7,12 @@ import users from '../../../img/icon/friends.png';
 import messages from '../../../img/icon/messages.png';
 import settings from '../../../img/icon/settings.png';
 
-const setActive = ({isActive}) => isActive ? `${style.active}` : '';
+
 
 const Menu = () => {
+
+  const setActive = ({isActive}) => isActive ? `${style.active}` : '';
+  debugger
   return (
     <nav className={ style.menu }>
       <div className={ style.menu__container }>

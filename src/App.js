@@ -26,6 +26,7 @@ class App extends React.Component {
         <HeaderContainer/>
         <div className="main">
           <Menu/>
+          <Route exact path="/" component={ ProfileContainer }/>
           <Route path="/profile/:id?" component={ ProfileContainer }/>
           <Route path="/messages" component={ MessagesContainer }/>
           <Route path="/users" component={ UsersContainer }/>

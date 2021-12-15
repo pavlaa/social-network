@@ -1,20 +1,30 @@
 .menu {
+  margin-right: 20px;
   width: 165px;
-  height: 151px;
+  height: 156px;
   border-radius: 10px;
   background-color: #FFFFFF;
+
   &__container {
-    padding: 15px 0;
+    padding: 10px 15px;
   }
+
   &__list {
     display: flex;
     flex-direction: column;
   }
+
   &__item {
-    margin: 0 0 15px 0;
-    .active {
-      color: black;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+
+    &:hover {
+      transition: all 0.3s ease 0s;
+      background: #EDF1F2;
     }
+
     a {
       display: flex;
       align-items: center;
@@ -22,10 +32,16 @@
       font-size: 16px;
       line-height: 19px;
       text-decoration: none;
+
+      .active {
+        color: #000000;
+      }
     }
+
     img {
-      margin: 0 9px 0 18px;
+      margin: 0 9px 0 4px;
     }
+
     &:last-child {
       margin: 0;
     }
