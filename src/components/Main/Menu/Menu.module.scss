@@ -1,0 +1,33 @@
+.menu {
+  width: 165px;
+  height: 151px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  &__container {
+    padding: 15px 0;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+  }
+  &__item {
+    margin: 0 0 15px 0;
+    .active {
+      color: black;
+    }
+    a {
+      display: flex;
+      align-items: center;
+      color: #3c5154;
+      font-size: 16px;
+      line-height: 19px;
+      text-decoration: none;
+    }
+    img {
+      margin: 0 9px 0 18px;
+    }
+    &:last-child {
+      margin: 0;
+    }
+  }
+}

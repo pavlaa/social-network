@@ -1,0 +1,52 @@
+
+.user {
+  display: flex;
+  padding: 15px 0px;
+  margin: 0px 20px;
+  border-bottom: 2px solid #B6C8CB;
+  justify-content: space-between;
+  &__info {
+    display: flex;
+  }
+  &__photo {
+    width: 90px;
+    height: 90px;
+    margin-right: 24px;
+    img {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+    }
+  }
+  &__descr {
+    margin-top: 10px;
+    color: #141B1C;
+  }
+  &__fullname {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  &__location {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  &__btn {
+    cursor: pointer;
+    margin-top: 15px;
+    width: 150px;
+    height: 40px;
+    background: #B6C8CB;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__text {
+    font-size: 15px;
+    line-height: 18px;
+    color: #141B1C;
+  }
+}
+.follow {
+  background-color: #E4EAEC;
+}

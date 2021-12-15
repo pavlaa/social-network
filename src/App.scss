@@ -1,0 +1,12 @@
+.wrapper {
+  height: 100%;
+  padding: 0px 0px 20px 0px;
+  .main {
+    min-height: 87%;
+    max-width: 1010px;
+    margin: 0 auto;
+    padding: 0px 0px 20px 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+}

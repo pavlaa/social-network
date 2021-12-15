@@ -1,0 +1,57 @@
+.profile {
+  width: 825px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+
+  &__container {
+    padding: 20px;
+  }
+}
+
+
+.user {
+  margin: 0px 0px 30px 0px;
+  display: flex;
+
+  &__img {
+    margin: 0px 25px 0px 0px;
+    width: 179px;
+    height: 229px;
+
+    img {
+      object-fit: inherit;
+      width: 179px;
+      height: 229px;
+    }
+  }
+
+  &__descr {
+  }
+
+  &__name {
+    margin-bottom: 10px;
+    color: #141B1C;
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  &__status {
+    margin-bottom: 50px;
+    color: #141B1C;
+  }
+
+  &__contacts {
+    margin-bottom: 10px;
+
+    a {
+      margin: 0 5px 0 0;
+    }
+  }
+  &__about {
+    margin-bottom: 10px;
+  }
+  &__skills {
+    margin-bottom: 10px;
+  }
+}
+

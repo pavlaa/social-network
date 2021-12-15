@@ -1,0 +1,39 @@
+.post {
+  margin: 0px 0px 20px 0px;
+  padding: 12px 17px;
+  border: 1px solid #B6C8CB;
+  border-radius: 10px;
+  width: 750px;
+
+	&__user {
+    display: flex;
+    margin: 0px 0px 10px 0px;
+  }
+	&__photo {
+    margin: 0px 16px 0px 0px;
+    width: 35px;
+    height: 35px;
+    background-color: #B6C8CB;
+    border-radius: 100%;
+    img {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+    }
+  }
+	&__name {
+    font-size: 16px;
+    line-height: 19px;
+    color: #141B1C;
+  }
+	&__date {
+    font-size: 12px;
+    line-height: 14px;
+    color: #141B1C;
+  }
+	&__text {
+    font-size: 14px;
+    line-height: 16px;
+    color: #141B1C;
+  }
+}

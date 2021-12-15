@@ -1,0 +1,23 @@
+.friendsList {
+  width: 166px;
+  min-height: 100%;
+  border-radius: 10px;
+  background-color: #ffffff;
+  &__search {
+    padding: 20px 17px;
+    border-bottom: 1px solid #B6C8CB;;
+    input {
+      padding: 11px 15px;
+      outline: none;
+      width: 132px;
+      height: 40px;
+      border-radius: 10px;
+      background-color: #B6C8CB;
+      border: none;
+
+      font-size: 15px;
+      line-height: 18px;
+      color: #141B1C;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.users {
+  width: 825px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  &__container {
+    padding-bottom: 20px;
+  }
+  &__find {
+    display: flex;
+    height: 50px;
+    background-color: #F6F8F9;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 2px solid #B6C8CB;
+    align-items: center;
+  }
+  &__text {
+    padding-left: 20px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #141B1C;
+    font-family: 'Roboto', serif;
+  }
+  &__nav {
+    padding: 10px 0px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: #141B1C;
+    font-family: 'Roboto', serif;
+    span {
+      cursor: pointer;
+      margin-right: 5px;
+    }
+  }
+}
+
+.active {
+  font-weight: bold;
+}
