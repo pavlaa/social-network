@@ -12,7 +12,7 @@ import settings from '../../../img/icon/settings.png';
 const Menu = () => {
 
   const setActive = ({isActive}) => isActive ? `${style.active}` : '';
-  debugger
+
   return (
     <nav className={ style.menu }>
       <div className={ style.menu__container }>

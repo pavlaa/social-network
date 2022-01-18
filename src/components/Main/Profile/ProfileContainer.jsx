@@ -4,6 +4,7 @@ import Profile from "./Profile";
 import { getUserProfileThunkCreator, getUserStatusThunkCreator, savePhotoThunkCreator, setUserProfile, updateUserStatusThunkCreator } from "../../../redux/profile-reducer";
 import { withRouter } from "react-router-dom";
 import { compose } from "redux";
+import {withAuthRedirect} from "../../../HOC/withAuthRedirect";
 
 class ProfileContainer extends React.Component {
   refreshProfile() {
@@ -47,4 +48,5 @@ export default compose(
     savePhoto: savePhotoThunkCreator
   }),
   withRouter,
+  withAuthRedirect
 )(ProfileContainer)
